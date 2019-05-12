@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+  <Type>PWM Servo</Type>
+  <Table>
+    <ID>1</ID>
+    <Move>#1 P2500 #2 P1500 #3 P589 #4 P500 #5 P500 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>2</ID>
+    <Move>#1 P1556 #2 P1500 #3 P1815 #4 P511 #5 P1595 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>3</ID>
+    <Move>#1 P2500 #2 P1500 #3 P1815 #4 P511 #5 P1595 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>4</ID>
+    <Move>#1 P2500 #2 P1500 #3 P589 #4 P500 #5 P500 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>5</ID>
+    <Move>#1 P1792 #2 P1500 #3 P1534 #4 P1073 #5 P1887 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>6</ID>
+    <Move>#1 P1792 #2 P1500 #3 P1691 #4 P916 #5 P1887 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+    <ID>7</ID>
+    <Move>#1 P2500 #2 P1500 #3 P1691 #4 P916 #5 P1887 #6 P1500</Move>
+    <Time>T1000</Time>
+    <position>POS1X=135Y=2 POS2X=279Y=23 POS3X=315Y=123 POS4X=409Y=221 POS5X=285Y=321 POS6X=337Y=419</position>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Combination</string>
+    <string name="intro_message">
+        <![CDATA[
+
+        This sample demonstrates the basic use of Camera2 API & TF on Android.
+        You can display camera preview and take pictures.
+        Flash light turns on automatically.
+        Then the application will automatically predict what the thing in the picture is.
+
+        Powered with Talent&Heart by NCJ
+
+        (The things we support: Red Block、Green Block、Blue Block、爽歪歪、养乐多、娃哈哈AD钙奶、雪花啤酒、红牛、乐虎、黄色网球、标准三阶魔方、特仑苏纯牛奶)
+
+        ]]>
+    </string>
+</resources>
