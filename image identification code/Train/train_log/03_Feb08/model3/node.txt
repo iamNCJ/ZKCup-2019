@@ -1,0 +1,97 @@
+=======================INPUT=========================
+[name: "input_1"
+op: "Placeholder"
+attr {
+  key: "dtype"
+  value {
+    type: DT_FLOAT
+  }
+}
+attr {
+  key: "shape"
+  value {
+    shape {
+      dim {
+        size: -1
+      }
+      dim {
+        size: -1
+      }
+      dim {
+        size: -1
+      }
+      dim {
+        size: 3
+      }
+    }
+  }
+}
+, name: "batch_normalization_1/keras_learning_phase/input"
+op: "Const"
+attr {
+  key: "dtype"
+  value {
+    type: DT_BOOL
+  }
+}
+attr {
+  key: "value"
+  value {
+    tensor {
+      dtype: DT_BOOL
+      tensor_shape {
+      }
+      bool_val: false
+    }
+  }
+}
+]
+=======================OUTPUT========================
+[name: "output_node0"
+op: "Identity"
+input: "strided_slice"
+attr {
+  key: "T"
+  value {
+    type: DT_FLOAT
+  }
+}
+]
+===================KERAS_LEARNING=====================
+[name: "batch_normalization_1/keras_learning_phase/input"
+op: "Const"
+attr {
+  key: "dtype"
+  value {
+    type: DT_BOOL
+  }
+}
+attr {
+  key: "value"
+  value {
+    tensor {
+      dtype: DT_BOOL
+      tensor_shape {
+      }
+      bool_val: false
+    }
+  }
+}
+, name: "batch_normalization_1/keras_learning_phase"
+op: "PlaceholderWithDefault"
+input: "batch_normalization_1/keras_learning_phase/input"
+attr {
+  key: "dtype"
+  value {
+    type: DT_BOOL
+  }
+}
+attr {
+  key: "shape"
+  value {
+    shape {
+    }
+  }
+}
+]
+======================================================

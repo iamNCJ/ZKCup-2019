@@ -1,0 +1,77 @@
+Microsoft Windows [版本 10.0.17134.523]
+(c) 2018 Microsoft Corporation。保留所有权利。
+
+C:\Users\江淼\Desktop\2019train>python train.py
+Using TensorFlow backend.
+2019-02-13 19:52:35.948534: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Found 2905 images belonging to 13 classes.
+Found 564 images belonging to 13 classes.
+Epoch 1/10
+Traceback (most recent call last):
+  File "train.py", line 71, in <module>
+    class_weight='auto'
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\engine\training.py", line 1418, in fit_generator
+    initial_epoch=initial_epoch)
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\engine\training_generator.py", line 217, in fit_generator
+    class_weight=class_weight)
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\engine\training.py", line 1211, in train_on_batch
+    class_weight=class_weight)
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\engine\training.py", line 789, in _standardize_user_data
+    exception_prefix='target')
+  File "C:\Users\江淼\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\engine\training_utils.py", line 138, in standardize_input_data
+    str(data_shape))
+ValueError: Error when checking target: expected dense_2 to have shape (12,) but got array with shape (13,)
+
+C:\Users\江淼\Desktop\2019train>python train.py
+Using TensorFlow backend.
+2019-02-13 19:55:44.395343: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Found 2905 images belonging to 13 classes.
+Found 564 images belonging to 13 classes.
+Epoch 1/10
+40/40 [==============================] - 394s 10s/step - loss: 2.0813 - acc: 0.4094 - val_loss: 1.1082 - val_acc: 0.6146
+Epoch 2/10
+40/40 [==============================] - 387s 10s/step - loss: 0.9668 - acc: 0.7000 - val_loss: 0.8545 - val_acc: 0.6979
+Epoch 3/10
+40/40 [==============================] - 388s 10s/step - loss: 0.8192 - acc: 0.7406 - val_loss: 0.6309 - val_acc: 0.7188
+Epoch 4/10
+40/40 [==============================] - 385s 10s/step - loss: 0.6545 - acc: 0.8000 - val_loss: 0.8386 - val_acc: 0.7188
+Epoch 5/10
+40/40 [==============================] - 394s 10s/step - loss: 0.5502 - acc: 0.7938 - val_loss: 1.1154 - val_acc: 0.6146
+Epoch 6/10
+40/40 [==============================] - 381s 10s/step - loss: 0.6121 - acc: 0.7906 - val_loss: 1.3458 - val_acc: 0.6522
+Epoch 7/10
+40/40 [==============================] - 387s 10s/step - loss: 0.5346 - acc: 0.8094 - val_loss: 0.7863 - val_acc: 0.7083
+Epoch 8/10
+40/40 [==============================] - 382s 10s/step - loss: 0.8698 - acc: 0.7035 - val_loss: 0.6983 - val_acc: 0.7500
+Epoch 9/10
+40/40 [==============================] - 383s 10s/step - loss: 0.5238 - acc: 0.8281 - val_loss: 0.6158 - val_acc: 0.7604
+Epoch 10/10
+40/40 [==============================] - 387s 10s/step - loss: 0.4024 - acc: 0.8531 - val_loss: 0.8268 - val_acc: 0.7292
+Epoch 1/12
+40/40 [==============================] - 691s 17s/step - loss: 0.3798 - acc: 0.9036 - val_loss: 0.1259 - val_acc: 0.9583
+Epoch 2/12
+40/40 [==============================] - 693s 17s/step - loss: 0.1263 - acc: 0.9688 - val_loss: 0.0858 - val_acc: 0.9792
+Epoch 3/12
+40/40 [==============================] - 693s 17s/step - loss: 0.1179 - acc: 0.9719 - val_loss: 0.0978 - val_acc: 0.9583
+Epoch 4/12
+40/40 [==============================] - 693s 17s/step - loss: 0.1044 - acc: 0.9688 - val_loss: 0.1469 - val_acc: 0.9375
+Epoch 5/12
+40/40 [==============================] - 692s 17s/step - loss: 0.1009 - acc: 0.9625 - val_loss: 0.1026 - val_acc: 0.9375
+Epoch 6/12
+40/40 [==============================] - 687s 17s/step - loss: 0.0932 - acc: 0.9750 - val_loss: 0.0508 - val_acc: 0.9783
+Epoch 7/12
+40/40 [==============================] - 692s 17s/step - loss: 0.1238 - acc: 0.9625 - val_loss: 0.0440 - val_acc: 0.9896
+Epoch 8/12
+40/40 [==============================] - 692s 17s/step - loss: 0.0992 - acc: 0.9656 - val_loss: 0.0817 - val_acc: 0.9688
+Epoch 9/12
+40/40 [==============================] - 691s 17s/step - loss: 0.1027 - acc: 0.9625 - val_loss: 0.1468 - val_acc: 0.9583
+Epoch 10/12
+40/40 [==============================] - 693s 17s/step - loss: 0.0892 - acc: 0.9750 - val_loss: 0.0399 - val_acc: 0.9792
+Epoch 11/12
+40/40 [==============================] - 693s 17s/step - loss: 0.0715 - acc: 0.9750 - val_loss: 0.0448 - val_acc: 0.9792
+Epoch 12/12
+40/40 [==============================] - 676s 17s/step - loss: 0.1460 - acc: 0.9474 - val_loss: 0.0450 - val_acc: 0.9891
+
+C:\Users\江淼\Desktop\2019train>

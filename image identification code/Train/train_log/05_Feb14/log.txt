@@ -1,0 +1,54 @@
+Microsoft Windows [版本 10.0.17134.523]
+(c) 2018 Microsoft Corporation。保留所有权利。
+
+C:\Users\江淼\Desktop\2019train>python train.py
+Using TensorFlow backend.
+2019-02-14 15:34:48.571852: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Found 2935 images belonging to 13 classes.
+Found 568 images belonging to 13 classes.
+Epoch 1/10
+40/40 [==============================] - 411s 10s/step - loss: 2.4701 - acc: 0.3063 - val_loss: 1.4420 - val_acc: 0.4896
+Epoch 2/10
+40/40 [==============================] - 393s 10s/step - loss: 1.0631 - acc: 0.6781 - val_loss: 1.6966 - val_acc: 0.4688
+Epoch 3/10
+40/40 [==============================] - 395s 10s/step - loss: 0.9524 - acc: 0.7125 - val_loss: 1.0156 - val_acc: 0.6562
+Epoch 4/10
+40/40 [==============================] - 393s 10s/step - loss: 0.8987 - acc: 0.6844 - val_loss: 0.8225 - val_acc: 0.6771
+Epoch 5/10
+40/40 [==============================] - 393s 10s/step - loss: 0.8297 - acc: 0.7437 - val_loss: 0.4975 - val_acc: 0.8021
+Epoch 6/10
+40/40 [==============================] - 393s 10s/step - loss: 0.5617 - acc: 0.7906 - val_loss: 0.8256 - val_acc: 0.7083
+Epoch 7/10
+40/40 [==============================] - 393s 10s/step - loss: 0.6018 - acc: 0.7750 - val_loss: 0.4434 - val_acc: 0.8438
+Epoch 8/10
+40/40 [==============================] - 392s 10s/step - loss: 0.5622 - acc: 0.7866 - val_loss: 0.5753 - val_acc: 0.7604
+Epoch 9/10
+40/40 [==============================] - 392s 10s/step - loss: 0.4953 - acc: 0.8469 - val_loss: 0.8528 - val_acc: 0.7188
+Epoch 10/10
+40/40 [==============================] - 395s 10s/step - loss: 0.3600 - acc: 0.8781 - val_loss: 0.6658 - val_acc: 0.7812
+Epoch 1/12
+40/40 [==============================] - 710s 18s/step - loss: 0.2665 - acc: 0.9156 - val_loss: 0.2097 - val_acc: 0.9271
+Epoch 2/12
+40/40 [==============================] - 698s 17s/step - loss: 0.1449 - acc: 0.9500 - val_loss: 0.1661 - val_acc: 0.9375
+Epoch 3/12
+40/40 [==============================] - 698s 17s/step - loss: 0.1649 - acc: 0.9438 - val_loss: 0.1140 - val_acc: 0.9688
+Epoch 4/12
+40/40 [==============================] - 699s 17s/step - loss: 0.0856 - acc: 0.9906 - val_loss: 0.1144 - val_acc: 0.9583
+Epoch 5/12
+40/40 [==============================] - 699s 17s/step - loss: 0.1234 - acc: 0.9656 - val_loss: 0.0408 - val_acc: 1.0000
+Epoch 6/12
+40/40 [==============================] - 698s 17s/step - loss: 0.1430 - acc: 0.9500 - val_loss: 0.0938 - val_acc: 0.9792
+Epoch 7/12
+40/40 [==============================] - 700s 18s/step - loss: 0.1122 - acc: 0.9625 - val_loss: 0.0490 - val_acc: 0.9896
+Epoch 8/12
+40/40 [==============================] - 701s 18s/step - loss: 0.1082 - acc: 0.9656 - val_loss: 0.1404 - val_acc: 0.9479
+Epoch 9/12
+40/40 [==============================] - 696s 17s/step - loss: 0.0941 - acc: 0.9750 - val_loss: 0.0531 - val_acc: 0.9792
+Epoch 10/12
+40/40 [==============================] - 699s 17s/step - loss: 0.0575 - acc: 0.9906 - val_loss: 0.0636 - val_acc: 0.9792
+Epoch 11/12
+40/40 [==============================] - 692s 17s/step - loss: 0.0507 - acc: 0.9875 - val_loss: 0.0655 - val_acc: 0.9688
+Epoch 12/12
+40/40 [==============================] - 698s 17s/step - loss: 0.0701 - acc: 0.9875 - val_loss: 0.0818 - val_acc: 0.9583
+
+C:\Users\江淼\Desktop\2019train>

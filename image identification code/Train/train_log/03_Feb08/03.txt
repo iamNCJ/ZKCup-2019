@@ -1,0 +1,48 @@
+Using TensorFlow backend.
+2019-02-08 12:50:51.827675: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Found 2130 images belonging to 12 classes.
+Found 368 images belonging to 12 classes.
+Epoch 1/10
+40/40 [==============================] - 387s 10s/step - loss: 1.6105 - acc: 0.5562 - val_loss: 0.6340 - val_acc: 0.7708
+Epoch 2/10
+40/40 [==============================] - 372s 9s/step - loss: 0.7539 - acc: 0.7660 - val_loss: 0.2938 - val_acc: 0.8854
+Epoch 3/10
+40/40 [==============================] - 380s 9s/step - loss: 0.3514 - acc: 0.9031 - val_loss: 0.3319 - val_acc: 0.8333
+Epoch 4/10
+40/40 [==============================] - 378s 9s/step - loss: 0.4389 - acc: 0.8719 - val_loss: 0.5224 - val_acc: 0.7812
+Epoch 5/10
+40/40 [==============================] - 377s 9s/step - loss: 0.4386 - acc: 0.8781 - val_loss: 0.1910 - val_acc: 0.9583
+Epoch 6/10
+40/40 [==============================] - 377s 9s/step - loss: 0.1982 - acc: 0.9438 - val_loss: 0.2731 - val_acc: 0.9167
+Epoch 7/10
+40/40 [==============================] - 380s 9s/step - loss: 0.6575 - acc: 0.8281 - val_loss: 0.3801 - val_acc: 0.8750
+Epoch 8/10
+40/40 [==============================] - 377s 9s/step - loss: 0.4552 - acc: 0.8625 - val_loss: 0.1532 - val_acc: 0.9375
+Epoch 9/10
+40/40 [==============================] - 372s 9s/step - loss: 0.3277 - acc: 0.8812 - val_loss: 0.3338 - val_acc: 0.8854
+Epoch 10/10
+40/40 [==============================] - 379s 9s/step - loss: 0.1827 - acc: 0.9344 - val_loss: 0.3052 - val_acc: 0.8646
+Epoch 1/12
+40/40 [==============================] - 692s 17s/step - loss: 0.1168 - acc: 0.9500 - val_loss: 0.1459 - val_acc: 0.9479
+Epoch 2/12
+40/40 [==============================] - 684s 17s/step - loss: 0.0895 - acc: 0.9750 - val_loss: 0.0465 - val_acc: 0.9896
+Epoch 3/12
+40/40 [==============================] - 702s 18s/step - loss: 0.0810 - acc: 0.9781 - val_loss: 0.0207 - val_acc: 1.0000
+Epoch 4/12
+40/40 [==============================] - 685s 17s/step - loss: 0.0611 - acc: 0.9844 - val_loss: 0.0178 - val_acc: 1.0000
+Epoch 5/12
+40/40 [==============================] - 674s 17s/step - loss: 0.1076 - acc: 0.9625 - val_loss: 0.0242 - val_acc: 1.0000
+Epoch 6/12
+40/40 [==============================] - 686s 17s/step - loss: 0.0653 - acc: 0.9844 - val_loss: 0.0638 - val_acc: 0.9792
+Epoch 7/12
+40/40 [==============================] - 692s 17s/step - loss: 0.0392 - acc: 0.9906 - val_loss: 0.0424 - val_acc: 0.9896
+Epoch 8/12
+40/40 [==============================] - 675s 17s/step - loss: 0.0356 - acc: 0.9906 - val_loss: 0.0105 - val_acc: 1.0000
+Epoch 9/12
+40/40 [==============================] - 685s 17s/step - loss: 0.0722 - acc: 0.9781 - val_loss: 0.0251 - val_acc: 1.0000
+Epoch 10/12
+40/40 [==============================] - 689s 17s/step - loss: 0.0441 - acc: 0.9937 - val_loss: 0.0069 - val_acc: 1.0000
+Epoch 11/12
+40/40 [==============================] - 691s 17s/step - loss: 0.0513 - acc: 0.9844 - val_loss: 0.0079 - val_acc: 1.0000
+Epoch 12/12
+40/40 [==============================] - 686s 17s/step - loss: 0.0492 - acc: 0.9844 - val_loss: 0.0279 - val_acc: 0.9896
